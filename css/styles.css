@@ -1,19 +1,25 @@
+body {
+  overflow: hidden;
+}
 .navbar-default {
   background-color: rgb(232, 120, 57);
 }
 .navbar-default .navbar-brand {
     color: white;
+
 }
 
 .navbar-default .navbar-nav>li>a {
     color: white;
     padding-right: 20px;
+
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
     color: white;
     font-weight: bolder;
     background-color:rgb(249, 90, 0);
+
 }
 
 .navbar-default .navbar-toggle .icon-bar {
