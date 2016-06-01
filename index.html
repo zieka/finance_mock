@@ -112,9 +112,8 @@
       $("#menu-toggle").click(function(e) {
           e.preventDefault();
           $("#wrapper").toggleClass("toggled");
-          var direction = $("#menu-toggle").text();
-          if (direction == "<<") {$("#menu-toggle").text(">>");}
-          if (direction == ">>") {$("#menu-toggle").text("<<");}
+          $("#wrapper.toggled").length ? $("#menu-toggle").text(">>") : $("#menu-toggle").text("<<")
+
       });
     </script>
   </body>
