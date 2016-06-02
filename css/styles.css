@@ -5,23 +5,116 @@ body {
   background-color: rgb(232, 120, 57);
 }
 .navbar-default .navbar-brand {
-    color: white;
-
+  color: white;
 }
 
 .navbar-default .navbar-nav>li>a {
-    color: white;
-    padding-right: 20px;
-
+  color: white;
+  padding-right: 20px;
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
-    color: white;
-    font-weight: bolder;
-    background-color:rgb(249, 90, 0);
-
+  color: white;
+  font-weight: bolder;
+  background-color:rgb(249, 90, 0);
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-    background-color: white;
+  background-color: white;
+}
+
+.dashboard-link {
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.panel-blue {
+  background-color: rgba(10, 145, 242, 0.75);
+}
+
+.panel-green {
+  background-color: rgba(64, 181, 23, 0.75);
+}
+
+.panel-yellow {
+  background-color: rgba(242, 219, 10, 0.75);
+}
+
+.panel-red {
+  background-color: rgba(214, 27, 49, 0.75);
+}
+
+
+/* Custom Colored Panels */
+
+.huge {
+    font-size: 40px;
+}
+
+.panel-blue {
+    border-color: ##0f9cec;
+}
+
+.panel-blue > .panel-heading {
+    border-color: ##0f9cec;
+    color: #fff;
+    background-color: ##0f9cec;
+}
+
+.panel-blue > a {
+    color: ##0f9cec;
+}
+
+.panel-green {
+    border-color: #5cb85c;
+}
+
+.panel-green > .panel-heading {
+    border-color: #5cb85c;
+    color: #fff;
+    background-color: #5cb85c;
+}
+
+.panel-green > a {
+    color: #5cb85c;
+}
+
+.panel-green > a:hover {
+    color: #3d8b3d;
+}
+
+.panel-red {
+    border-color: #d9534f;
+}
+
+.panel-red > .panel-heading {
+    border-color: #d9534f;
+    color: #fff;
+    background-color: #d9534f;
+}
+
+.panel-red > a {
+    color: #d9534f;
+}
+
+.panel-red > a:hover {
+    color: #b52b27;
+}
+
+.panel-yellow {
+    border-color: #f0ad4e;
+}
+
+.panel-yellow > .panel-heading {
+    border-color: #f0ad4e;
+    color: #fff;
+    background-color: #f0ad4e;
+}
+
+.panel-yellow > a {
+    color: #f0ad4e;
+}
+
+.panel-yellow > a:hover {
+    color: #df8a13;
 }
