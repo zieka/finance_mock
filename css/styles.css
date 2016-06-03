@@ -29,19 +29,19 @@ body {
 }
 
 .panel-blue {
-  background-color: rgba(10, 145, 242, 0.75);
+  background-color: rgb(10, 145, 242);
 }
 
 .panel-green {
-  background-color: rgba(64, 181, 23, 0.75);
+  background-color: rgb(64, 181, 23);
 }
 
 .panel-yellow {
-  background-color: rgba(242, 219, 10, 0.75);
+  background-color: rgb(242, 219, 10);
 }
 
 .panel-red {
-  background-color: rgba(214, 27, 49, 0.75);
+  background-color: rgb(214, 27, 49);
 }
 
 
@@ -52,17 +52,17 @@ body {
 }
 
 .panel-blue {
-    border-color: ##0f9cec;
+    border-color: #0f9cec;
 }
 
 .panel-blue > .panel-heading {
-    border-color: ##0f9cec;
+    border-color: #0f9cec;
     color: #fff;
-    background-color: ##0f9cec;
+    background-color: #0f9cec;
 }
 
 .panel-blue > a {
-    color: ##0f9cec;
+    color: #0f9cec;
 }
 
 .panel-green {
