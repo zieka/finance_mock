@@ -121,3 +121,6 @@ body {
 .panel-yellow > a:hover {
     color: #df8a13;
 }
+.panel-name{
+  font-size: 1.1em;
+}
