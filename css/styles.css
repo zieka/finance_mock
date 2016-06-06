@@ -144,8 +144,12 @@ body {
 }
 
 @media(max-width:767px) {
-  .nav-title{
+  /*.nav-title{
     visibility: hidden;
     display: none;
+  }*/
+  .resize-button {
+    visibility: hidden;
+    display:none;
   }
 }
