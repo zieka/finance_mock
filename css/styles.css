@@ -14,6 +14,7 @@ body {
 .navbar-default .navbar-nav>li>a {
   color: white;
   padding-right: 20px;
+  font-size: 1.10em;
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
@@ -123,4 +124,28 @@ body {
 }
 .panel-name{
   font-size: 1.1em;
+}
+
+@media(min-width:1081px) {
+  .resize-button {
+    visibility: visible;
+    display:block;
+  }
+}
+@media (min-width: 768px) and (max-width: 1080px) {
+  .resize-button {
+    visibility: hidden;
+    display:block;
+  }
+  .nav-title{
+    visibility: hidden;
+    display: none;
+  }
+}
+
+@media(max-width:767px) {
+  .nav-title{
+    visibility: hidden;
+    display: none;
+  }
 }
