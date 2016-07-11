@@ -1,0 +1,25 @@
+{
+  "name": "finance_mock",
+  "homepage": "https://github.com/zieka/finance_mock",
+  "authors": [
+    "Kyle Scully <scullykns@gmail.com>"
+  ],
+  "description": "test_mock_up",
+  "main": "index.html",
+  "keywords": [
+    "finance"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "font-awesome": "^4.6.3"
+  }
+}
